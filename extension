@@ -1,0 +1,7 @@
+filename=input("Input the filename: ")
+file=filename.split('.')
+myex=file[-1]
+ext = 'py'
+if myex == ext:
+  myex = "python"
+print("The extension of file is","'",myex,"'")
